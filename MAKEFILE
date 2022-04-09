@@ -1,0 +1,9 @@
+output: integral.o
+	g++ integral.o -o integral
+
+main.o: zadanie.cc
+	g++ -c zadanie.cc -o integral.o
+
+clear:
+	rm *.o
+	rm integral
