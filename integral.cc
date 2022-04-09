@@ -1,8 +1,9 @@
 #include <iostream>
 #include <cmath>
 #include <fstream>
-#define INT_RES 200
+#define INT_RES 60
 //INT_RES jest ewidentnie do dopasowania, optymalnie ~1000, wtedy dostajemy ~30 s na obliczenie
+//prawdopodobnie można zmniejszyć do nawet INT_RES=20, ale taki 20 kąt to nawet nie jest koło :(
 
 double under_integral(double m, double M, double l0x, double l0y, double rho,double phi, double z){
     double DELl02 = l0x*l0x+l0y*l0y;
@@ -45,7 +46,6 @@ double integral(double R, double Z, double m, double M, double l0x, double l0y){
 
 int main(int argc, char** argv){
 
-//    std::cout << integral(1,-1,1,1,1,2) << std::endl; ~30sekund
 
     double R = atof(argv[1]);
     double Z = atof(argv[2]);
@@ -60,8 +60,5 @@ int main(int argc, char** argv){
     File.close();
 
 
-    /*
-    zapis macierzy taki jak w programie automatum cellularnego. Narazie sprawdzimy działanie tego ścierwa.
-    /**/
     return 0;   
 }
