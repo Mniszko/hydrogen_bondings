@@ -8,7 +8,6 @@
 double under_integral(double m, double M, double l0x, double l0y, double rho,double phi, double z){
     double DELl02 = l0x*l0x+l0y*l0y;
     double DELr2 = (rho*rho+DELl02+z*z-2*rho*sqrt(DELl02)*cos(phi));
-    //std przed sqrt i cos?
     return rho*m*M*(1/DELr2/DELr2-5/DELr2);
 }
 
