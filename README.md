@@ -8,7 +8,7 @@ Calculation of forces between magnets and test dipoles of zero volume for cylind
 - wysokość
 
 ## DZIAŁANIE
-integral.cc można skompilować komendą _makefile_ bądź __g++ integral.cc -o integral__, przyspieszyć działanie programu można przez zmniejszenie dokładności całkowania (wartości __INT_RES__).
+integral.cc można skompilować komendą _makefile_ bądź _g++ integral.cc -o integral_, przyspieszyć działanie programu można przez zmniejszenie dokładności całkowania (wartości __INT_RES__).
 
 Plik __main.ipynb__  powinien być uruchomiony w programie __jupyter__.
 
