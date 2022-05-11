@@ -12,5 +12,5 @@ integral.cc można skompilować komendą _makefile_ bądź _g++ integral.cc -o i
 
 Plik __main.ipynb__  powinien być uruchomiony w programie __jupyter__.
 
-Inicjalizując z odpowiednimi parametrami bądź wpisując własne funkcje inicjalizacyjne (jak na przykładnie wewnątrz proramu) można budować inne układy magnesów, wielkość macierzy i położenie magnesów wewnątrz można kontrolować parametrami inicjalizacji oraz nx i ny (rozmiarami macierzy).
+Inicjalizując z odpowiednimi parametrami bądź wpisując własne funkcje inicjalizacyjne (jak na przykładnie wewnątrz proramu) można budować inne układy magnesów i macierze. Położenia magnesów wewnątrz można kontrolować parametrami inicjalizacji oraz nx i ny (rozmiarami macierzy).
 
